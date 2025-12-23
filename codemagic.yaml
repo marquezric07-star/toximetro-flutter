@@ -13,8 +13,7 @@ workflows:
           flutter pub get
       - name: Build iOS IPA
         script: |
-          flutter build ipa --release --flavor ios-production -t lib/main_prod.dart
-    artifacts:
+          flutter build ipa --release    artifacts:
       - build/ios/ipa/*.ipa
 
   android-workflow:
@@ -32,6 +31,5 @@ workflows:
           flutter pub get
       - name: Build Android AAB
         script: |
-          flutter build appbundle --release --flavor android-production -t lib/main_prod.dart
-    artifacts:
+          flutter build appbundle --release    artifacts:
       - build/**/outputs/**/*.aab
