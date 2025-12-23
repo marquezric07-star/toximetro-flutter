@@ -15,7 +15,7 @@ workflows:
           ios_signing:
     distribution_type: app_store
     bundle_identifier: com.toximetro.ios
-            ios_signing:
+          scripts
       - name: Set up code signing settings on Xcode project
         script: |
           xcode-project use-profiles
