@@ -1,0 +1,194 @@
+{
+  "project_info": {
+    "project_number": "448790909358",
+    "project_id": "toximetro-5d49a",
+    "storage_bucket": "toximetro-5d49a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:448790909358:android:15c50ee5be09c7d390f83f",
+        "android_client_info": {
+          "package_name": "apple.servicecom.gabrielflutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "448790909358-nsq1t2dqis3j1vqj7ukcp26nhs01fdi6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "apple.servicecom.gabrielflutter",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "448790909358-0p51d7kgfsou5tbjsedbv90urtuquae0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8ZIAGdCRBeyRGkYiequRhClGg0Mg24hY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "448790909358-0p51d7kgfsou5tbjsedbv90urtuquae0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "448790909358-655psgan13jesf7vnf1leqepsgs80qbb.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.nfRmGvEy2XdBfK.natlvely"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:448790909358:android:bb29f0595c20ef4890f83f",
+        "android_client_info": {
+          "package_name": "com.gabrielflutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "448790909358-s033f2jbpejn1thtpqde6edvv0oecu3i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gabrielflutter",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "448790909358-0p51d7kgfsou5tbjsedbv90urtuquae0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8ZIAGdCRBeyRGkYiequRhClGg0Mg24hY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "448790909358-0p51d7kgfsou5tbjsedbv90urtuquae0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "448790909358-655psgan13jesf7vnf1leqepsgs80qbb.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.nfRmGvEy2XdBfK.natlvely"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:448790909358:android:0ea69baefea18b3890f83f",
+        "android_client_info": {
+          "package_name": "com.toximetro.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "448790909358-7v0ejahaicpfpolnke6os35mkut4k400.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.toximetro.app",
+            "certificate_hash": "aabd8e5720899d6340b2b1c4ea5c7f205d8842b6"
+          }
+        },
+        {
+          "client_id": "448790909358-tl2fgj3es12m9sdk7urvae8kkelaia4q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.toximetro.app",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "448790909358-0p51d7kgfsou5tbjsedbv90urtuquae0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8ZIAGdCRBeyRGkYiequRhClGg0Mg24hY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "448790909358-0p51d7kgfsou5tbjsedbv90urtuquae0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "448790909358-655psgan13jesf7vnf1leqepsgs80qbb.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.nfRmGvEy2XdBfK.natlvely"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:448790909358:android:6b974d9aa537be1390f83f",
+        "android_client_info": {
+          "package_name": "com.toximetro.ios"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "448790909358-mrj7pb3le8b9asq9so47qtqmdff6gc68.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.toximetro.ios",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "448790909358-0p51d7kgfsou5tbjsedbv90urtuquae0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8ZIAGdCRBeyRGkYiequRhClGg0Mg24hY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "448790909358-0p51d7kgfsou5tbjsedbv90urtuquae0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "448790909358-655psgan13jesf7vnf1leqepsgs80qbb.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.nfRmGvEy2XdBfK.natlvely"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
