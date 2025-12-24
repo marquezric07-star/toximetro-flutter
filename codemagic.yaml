@@ -3,25 +3,20 @@ workflows:
     name: iOS App Store Release
     max_build_duration: 60
     integrations:
-      app_store_connect: Codemagic PORD Toximetro
+      app_store_connect: Codemagic PROD Toximetro
     environment:
       flutter: stable
       xcode: latest
     ios_signing:
       distribution_type: app_store
       bundle_identifier: com.toximetro.ios
-      scripts:
+    scripts:
       - name: Get Flutter packages
         script: flutter pub get
       - name: Install pods
         script: |
           cd ios
           pod install
-          cd ..
-      - name: Set Development Team ID
-        script: |
-          sed -i '' 's/DEVELOPMENT_TEAM = ""/DEVELOPMENT_TEAM = P7L343G9G5/g' ios/Runner.xcodeproj/project.pbxproj
-          sed -i '' 's/DEVELOPMENT_TEAM = ;/DEVELOPMENT_TEAM = P7L343G9G5;/g' ios/Runner.xcodeproj/project.pbxproj
       - name: Build IPA
         script: flutter build ipa --release
     artifacts:
