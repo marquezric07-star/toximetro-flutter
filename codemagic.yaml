@@ -10,8 +10,7 @@ workflows:
     ios_signing:
       distribution_type: app_store
       bundle_identifier: com.toximetro.ios
-      apple_team_id: P7L34SGG5S
-    scripts:
+          scripts:
       - name: Get Flutter packages
         script: flutter pub get
       - name: Install pods
