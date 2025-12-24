@@ -17,7 +17,7 @@ workflows:
           pod install
 
               - name: Set up code signing
-      script: |
+        script: |
         keychain initialize
         app-store-connect fetch-signing-files com.toximetro.ios \
           --type IOS_APP_STORE \
