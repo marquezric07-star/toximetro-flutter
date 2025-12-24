@@ -15,15 +15,12 @@ workflows:
         script: |
           cd ios
           pod install
-
-              - name: Set up code signing
+      
+      - name: Set up code signing
         script: |
-        keychain initialize
-        app-store-connect fetch-signing-files com.toximetro.ios \
-          --type IOS_APP_STORE \
-          --create
-        keychain add-certificates
-        xcode-project use-profiles
+          keychain initialize
+          keychain add-certificates
+          xcode-project use-profiles
       
       - name: Build IPA
         script: flutter build ipa --release
