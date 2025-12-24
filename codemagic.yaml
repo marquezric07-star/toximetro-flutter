@@ -18,6 +18,10 @@ workflows:
           cd ios
           pod install
           cd ..
+      - name: Set Development Team ID
+        script: |
+          sed -i '' 's/DEVELOPMENT_TEAM = ""/DEVELOPMENT_TEAM = P7L343G9G5/g' ios/Runner.xcodeproj/project.pbxproj
+          sed -i '' 's/DEVELOPMENT_TEAM = ;/DEVELOPMENT_TEAM = P7L343G9G5;/g' ios/Runner.xcodeproj/project.pbxproj
       - name: Build IPA
         script: flutter build ipa --release
     artifacts:
