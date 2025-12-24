@@ -22,6 +22,3 @@ workflows:
         script: flutter build ipa --release
     artifacts:
       - build/ios/ipa/*.ipa
-    publishing:
-      app_store_connect:
-        api_key: Codemagic PORD Toximetro
