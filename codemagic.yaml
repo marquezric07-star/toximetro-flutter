@@ -21,6 +21,10 @@ workflows:
     
     artifacts:
       - build/ios/ipa/*.ipa
+
+          ios_signing:
+                distribution_type: app_store
+                      bundle_identifier: com.toximetro.app
     
     publishing:
       app_store_connect:
