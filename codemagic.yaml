@@ -4,8 +4,8 @@ workflows:
     max_build_duration: 60
     environment:
       flutter: stable
-          android_signing:
-                - TOXIMETRO_KEYSTORE
+      android_signing:
+        - TOXIMETRO_KEYSTORE
     scripts:
       - name: Get dependencies
         script: flutter pub get
